@@ -10,8 +10,9 @@ local Raider = {
 0,
 }
 
-local Idiots = { --[Idiot]
+local Idiots = { --[Idiot] (People who exploit too much]
 1813554912,
+2611030574,
 }
 
 local iscool = {
