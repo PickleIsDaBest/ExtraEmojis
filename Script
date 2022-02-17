@@ -2,8 +2,8 @@ local Diamond = { --💎
 0,
 }
 
-local cucumber = { --🥒
-0,
+local cucumber = { --🍆
+2828887010,
 }
 
 local Raider = {
@@ -61,7 +61,7 @@ function swagnames()
         elseif table.find(cucumber, Player.UserId) then
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
-                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥒]' .. Player.DisplayName)
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🍆]' .. Player.DisplayName)
                 end
             end
         elseif table.find(Lighting, Player.UserId) then
